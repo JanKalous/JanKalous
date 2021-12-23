@@ -1,0 +1,38 @@
+from typing import ItemsView
+from selenium import webdriver
+import pandas as pd
+website = r"https://www.contextures.com/xlsampledata01.html"
+path = r"C:\Users\hkalo\Downloads\chromedriver_win32\chromedriver.exe"
+driver = webdriver.Chrome(path)
+driver.get(website)
+
+rows = driver.find_elements_by_tag_name('tr')
+
+order_date = []
+region = []
+rep = []
+item = []
+units = []
+unit_cost = []
+total = []
+
+for row in rows:
+    order = (row.find_element_by_xpath('./td[1]').text)
+    order_date.append(order)
+    regi = (row.find_element_by_xpath('./td[2]').text)
+    region.append(regi)
+    repp = (row.find_element_by_xpath('./td[3]').text)
+    rep.append(repp)
+    it = (row.find_element_by_xpath('./td[4]').text)
+    item.append(it)
+    un = (row.find_element_by_xpath('./td[5]').text)
+    units.append(un)
+    unco = (row.find_element_by_xpath('./td[6]').text)
+    unit_cost.append(unco)
+    tot = (row.find_element_by_xpath('./td[7]').text)
+    total.append(tot)
+    print(tot)
+driver.quit()
+df = pd.DataFrame({"OrderDate": order_date, "Region": region, "Rep": rep, "Item": item, "Units": units, "UnitsCost":unit_cost, "Total": total})
+df.to_csv("data.csv", index=False)
+print(df)

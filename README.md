@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @JanKalous
-- 👀 I’m interested in Python, Selenium, Django, RPA, SQL
-- 🌱 I’m currently learning Python, Selenium
+- 👀 I’m interested in Python, IT, Networking, SQL
+- 🌱 I’m currently learning Python
 - 💞️ I’m not looking to collaborate on anything right now
 - 📫 How to reach me h.kalous27@seznam.cz
 

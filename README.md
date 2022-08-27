@@ -1,15 +1,15 @@
 ![banner](https://user-images.githubusercontent.com/92028305/186904438-b533e31f-ec0b-4837-b49d-94c1fdf98a25.png)
 
 <h1 align="center">Hi 👋, I'm Jan Kalous</h1>
-<h3 align="center">A passionate Python developer from Czech Republic</h3>
+<h3 align="center">A passionate Pythonist from Czech Republic</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=jankalous&label=Profile%20views&color=0e75b6&style=flat" alt="jankalous" /> </p>
 
-- 🔭 I’m currently working on **Completing Python course on Udemy**
+- 🔭 I’m currently working on **Completing a Python course on Udemy**
 
 - 🌱 I’m currently learning **Python, Django, MySQL**
 
-- 👨‍💻 All of my projects are available at [Here on my Github account](Here on my Github account)
+- 👨‍💻 All of my projects are available at Here on my Github account
 
 - 📫 How to reach me **h.kalous27@seznam.cz**
 
